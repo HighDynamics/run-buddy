@@ -44,6 +44,7 @@ header nav ul li a {
   font-size: 22px;
 }
 
+/* FOOTER STYLES START */
 footer {
   background: #fce138;
   width: 100%;
@@ -66,12 +67,40 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* FOOTER STYLES END */
 
+/* SECTION UTILITY STYLES START */
 section {
-  padding: 60px;
+    padding: 60px;
 }
 
-/* Hero Style Start */
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+/* SECTION UTILITY STYLES END */
+
+/* HERO STYLES START */
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
@@ -121,33 +150,10 @@ section {
   width: 100%;
   margin-bottom: 15px;
 }
-/* Hero Style End */
+/* HERO STYLES END */
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
 
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
+/* WHAT WE DO STYLES START */
 .intro {
   text-align: center;
 }
@@ -159,7 +165,9 @@ section {
   font-size: 20px;
   margin: 0 auto;
 }
+/* WHAT WE DO STYLES END */
 
+/* WHAT YOU DO STYLES START */
 .steps {
   text-align: center;
   background: #fce138;
@@ -188,7 +196,9 @@ section {
 .steps span {
   font-size: 38px;
 }
+/* WHAT YOU DO STYLES END */
 
+/* YOUR TRAINERS STYLES START */
 .trainers {
   text-align: center;
 }
@@ -227,7 +237,9 @@ section {
   font-size: 17px;
   line-height: 1.3;
 }
+/* YOUR TRAINERS STYLES END */
 
+/* REACH OUT STYLES START */
 .contact {
   background: #024e76;
   text-align: center;
@@ -255,16 +267,18 @@ section {
 
 .contact-info h3 {
   color: #fce138;
+  font-size: 32px;
 }
 
-.contact-info address {
+.contact-info p,
+address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
   font-style: normal;
-  font-weight: lighter;
 }
 
-.contact-info p {
-  font-weight: lighter;
-}
 .contact-info a {
   color: #fce138;
 }
+/* REACH OUT STYLES END */
